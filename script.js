@@ -19,6 +19,7 @@ function search(){
     if(bname in localStorage){
         booksObj=JSON.parse(localStorage.getItem(bname))
         d1.innerHTML=`<p class="container card w-75 p-5" style="text-align:left;color:purple;">
+                    Book Id: ${booksObj.bookid}<br>
                     Book Name: ${booksObj.bname}<br>
                     Author Name: ${booksObj.aname}<br>
                     Book Description: ${booksObj.bdesc}<br>
