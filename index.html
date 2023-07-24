@@ -1,0 +1,22 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container w-25 mt-5 text-center">
+        <form action="" class="bg-dark border mt-5 p-3">
+            <h4 style="color: white;">ADD BOOK</h4><br>
+            <input type="text" id="bid" class="form-control" placeholder="Book id"><br>
+            <input type="text" id="bn" class="form-control" placeholder="Book name" style="width: 100%;"><br>
+            <input type="text" id="an" class="form-control" placeholder="Author name" style="width: 100%;"><br>
+            <input type="text" id="desc" class="form-control" placeholder="Book description" style="width: 100%;"><br>
+            <button type="button" onclick="addBook()" class="btn btn-outline-success">Add Book</button>
+            <button type="button" onclick="searchPage()" class="btn btn-outline-warning">Search Book</button>
+        </form>
+        <div id="d2"></div>
+    </div>
+
+<script src="./script.js"></script>
+</body></html>
